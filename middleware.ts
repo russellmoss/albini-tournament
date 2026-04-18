@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAdminSessionFromRequest } from "@/lib/auth-session";
+import { getAdminSessionFromRequest } from "./lib/auth-session";
 
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
