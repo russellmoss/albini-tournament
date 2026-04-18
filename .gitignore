@@ -49,3 +49,5 @@ yarn-error.log*
 # rstack runtime state (config files are tracked; runtime artifacts are not)
 .context-ledger/inbox.jsonl
 .agent-guard/session-context.md
+
+.vercel
